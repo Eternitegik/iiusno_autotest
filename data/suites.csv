@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 31 17:01:54 MSK 2022","Mon Jan 31 17:01:54 MSK 2022","279","Test_iiusno.Test_iiusno_Web","test_search","TestPageSearch","","","Открываем страницу ИИУСНО","Проверки на главной странице ИИУСНО"
+"passed","Mon Jan 31 17:01:57 MSK 2022","Mon Jan 31 17:01:59 MSK 2022","1715","Test_iiusno.Test_iiusno_Web","test_search","TestPageSearch","","","Открываем страницу ""АСУНО""","Проверки открытия страницы авторизации ""АСУНО"" со страницы ИИУСНО"
+"passed","Mon Jan 31 17:02:06 MSK 2022","Mon Jan 31 17:02:07 MSK 2022","1168","Test_iiusno.Test_iiusno_Web","test_search","TestPageSearch","","","Авторизация АСУНО","Проверка возможности авторизации"
+"passed","Mon Jan 31 17:02:02 MSK 2022","Mon Jan 31 17:02:03 MSK 2022","765","Test_iiusno.Test_iiusno_Web","test_search","TestPageSearch","","","Открываем страницу ""АС УФАП / ТОиР""","Проверки открытия страницы авторизации ""АС УФАП / ТОиР"" со страницы ИИУСНО"

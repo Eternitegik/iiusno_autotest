@@ -1,1 +1,41 @@
-[ ]
+[ {
+  "uid" : "4e539e4f946b49c2",
+  "name" : "Открываем страницу \"АС УФАП / ТОиР\"",
+  "time" : {
+    "start" : 1643637722488,
+    "stop" : 1643637723253,
+    "duration" : 765
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "77347d32c9ed951e",
+  "name" : "Открываем страницу \"АСУНО\"",
+  "time" : {
+    "start" : 1643637717698,
+    "stop" : 1643637719413,
+    "duration" : 1715
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "983ff3d0ab9e5914",
+  "name" : "Авторизация АСУНО",
+  "time" : {
+    "start" : 1643637726324,
+    "stop" : 1643637727492,
+    "duration" : 1168
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d89e36633a631234",
+  "name" : "Открываем страницу ИИУСНО",
+  "time" : {
+    "start" : 1643637714315,
+    "stop" : 1643637714594,
+    "duration" : 279
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

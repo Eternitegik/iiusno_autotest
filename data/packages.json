@@ -1,5 +1,77 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "children" : [ ],
-  "name" : "packages"
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Test_iiusno.Test_iiusno_Web.test_search",
+    "children" : [ {
+      "name" : "Открываем страницу ИИУСНО",
+      "uid" : "d89e36633a631234",
+      "parentUid" : "c83f8d9f667fec354ea3d8c9ef92a874",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643637714315,
+        "stop" : 1643637714594,
+        "duration" : 279
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открываем страницу \"АСУНО\"",
+      "uid" : "77347d32c9ed951e",
+      "parentUid" : "c83f8d9f667fec354ea3d8c9ef92a874",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643637717698,
+        "stop" : 1643637719413,
+        "duration" : 1715
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Открываем страницу \"АС УФАП / ТОиР\"",
+      "uid" : "4e539e4f946b49c2",
+      "parentUid" : "c83f8d9f667fec354ea3d8c9ef92a874",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643637722488,
+        "stop" : 1643637723253,
+        "duration" : 765
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация АСУНО",
+      "uid" : "983ff3d0ab9e5914",
+      "parentUid" : "c83f8d9f667fec354ea3d8c9ef92a874",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643637726324,
+        "stop" : 1643637727492,
+        "duration" : 1168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Test_iiusno.Test_iiusno_Web.test_search"
+  } ]
 }

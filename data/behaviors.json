@@ -1,5 +1,85 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ ],
-  "name" : "behaviors"
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Тесты для Web",
+    "children" : [ {
+      "name" : "Проверки главной страницы",
+      "children" : [ {
+        "name" : "Открываем страницу ИИУСНО",
+        "uid" : "d89e36633a631234",
+        "parentUid" : "9d31dcf93bdbd9e510a3d3bd9ef40a70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643637714315,
+          "stop" : 1643637714594,
+          "duration" : 279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Открываем страницу \"АСУНО\"",
+        "uid" : "77347d32c9ed951e",
+        "parentUid" : "9d31dcf93bdbd9e510a3d3bd9ef40a70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643637717698,
+          "stop" : 1643637719413,
+          "duration" : 1715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Открываем страницу \"АС УФАП / ТОиР\"",
+        "uid" : "4e539e4f946b49c2",
+        "parentUid" : "9d31dcf93bdbd9e510a3d3bd9ef40a70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643637722488,
+          "stop" : 1643637723253,
+          "duration" : 765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d31dcf93bdbd9e510a3d3bd9ef40a70"
+    }, {
+      "name" : "Проверки авторизации АСУНО",
+      "children" : [ {
+        "name" : "Авторизация АСУНО",
+        "uid" : "983ff3d0ab9e5914",
+        "parentUid" : "0bfb78468199585258db75bccf93cd15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643637726324,
+          "stop" : 1643637727492,
+          "duration" : 1168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0bfb78468199585258db75bccf93cd15"
+    } ],
+    "uid" : "d46b318d7e54e7c13701631c1222996c"
+  } ]
 }

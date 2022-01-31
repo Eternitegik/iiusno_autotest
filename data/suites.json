@@ -1,5 +1,85 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ ],
-  "name" : "suites"
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test_iiusno.Test_iiusno_Web",
+    "children" : [ {
+      "name" : "test_search",
+      "children" : [ {
+        "name" : "TestPageSearch",
+        "children" : [ {
+          "name" : "Открываем страницу ИИУСНО",
+          "uid" : "d89e36633a631234",
+          "parentUid" : "4d18f6327950daeb8cdb2e793230620e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1643637714315,
+            "stop" : 1643637714594,
+            "duration" : 279
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Открываем страницу \"АСУНО\"",
+          "uid" : "77347d32c9ed951e",
+          "parentUid" : "4d18f6327950daeb8cdb2e793230620e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1643637717698,
+            "stop" : 1643637719413,
+            "duration" : 1715
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Открываем страницу \"АС УФАП / ТОиР\"",
+          "uid" : "4e539e4f946b49c2",
+          "parentUid" : "4d18f6327950daeb8cdb2e793230620e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1643637722488,
+            "stop" : 1643637723253,
+            "duration" : 765
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Авторизация АСУНО",
+          "uid" : "983ff3d0ab9e5914",
+          "parentUid" : "4d18f6327950daeb8cdb2e793230620e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1643637726324,
+            "stop" : 1643637727492,
+            "duration" : 1168
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4d18f6327950daeb8cdb2e793230620e"
+      } ],
+      "uid" : "6f89b51c771f90e02e3623b0b27375e5"
+    } ],
+    "uid" : "a9f857bf1ad7b9f3fac8d53d209c81d5"
+  } ]
 }

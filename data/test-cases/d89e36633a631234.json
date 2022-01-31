@@ -1,0 +1,187 @@
+{
+  "uid" : "d89e36633a631234",
+  "name" : "Открываем страницу ИИУСНО",
+  "fullName" : "Test_iiusno.Test_iiusno_Web.test_search.TestPageSearch#test_iiusno_open",
+  "historyId" : "33817444d6c554755f472b5223e16602",
+  "time" : {
+    "start" : 1643637714315,
+    "stop" : 1643637714594,
+    "duration" : 279
+  },
+  "description" : "Проверки на главной странице ИИУСНО",
+  "descriptionHtml" : "<p>Проверки на главной странице ИИУСНО</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1643637713285,
+      "stop" : 1643637713285,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1643637713285,
+      "stop" : 1643637714314,
+      "duration" : 1029
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1643637714314,
+      "stop" : 1643637714314,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Проверки на главной странице ИИУСНО",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем страницу \"ИИУСНО\"",
+      "time" : {
+        "start" : 1643637714530,
+        "stop" : 1643637714535,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Проверка наличия кнопки \"АСУНО\"",
+      "time" : {
+        "start" : 1643637714535,
+        "stop" : 1643637714567,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Проверка наличия кнопки \"АС УФАП / ТОиР\"",
+      "time" : {
+        "start" : 1643637714567,
+        "stop" : 1643637714593,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1643637714594,
+      "stop" : 1643637716697,
+      "duration" : 2103
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Проверки главной страницы"
+  }, {
+    "name" : "feature",
+    "value" : "Тесты для Web"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_iiusno.Test_iiusno_Web"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KEP8BC0"
+  }, {
+    "name" : "thread",
+    "value" : "11080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_iiusno.Test_iiusno_Web.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d89e36633a631234.json",
+  "parameterValues" : [ ]
+}
