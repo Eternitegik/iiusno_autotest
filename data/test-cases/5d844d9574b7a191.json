@@ -1,0 +1,157 @@
+{
+  "uid" : "5d844d9574b7a191",
+  "name" : "Авторизация АСУНО",
+  "fullName" : "Test_iiusno.Test_iiusno_Web.test_search.TestPageSearch#test_asuno",
+  "historyId" : "86a94205be08f9814311c1977bb1de26",
+  "time" : {
+    "start" : 1643647690223,
+    "stop" : 1643647691911,
+    "duration" : 1688
+  },
+  "description" : "Проверка возможности авторизации",
+  "descriptionHtml" : "<p>Проверка возможности авторизации</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1643647689245,
+      "stop" : 1643647690223,
+      "duration" : 978
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1643647689245,
+      "stop" : 1643647689245,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1643647690223,
+      "stop" : 1643647690223,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка возможности авторизации",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие страницы \"АСУНО\"",
+      "time" : {
+        "start" : 1643647691908,
+        "stop" : 1643647691911,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1643647691912,
+      "stop" : 1643647693995,
+      "duration" : 2083
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Тесты для Web"
+  }, {
+    "name" : "story",
+    "value" : "Проверки АСУНО"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_iiusno.Test_iiusno_Web"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KEP8BC0"
+  }, {
+    "name" : "thread",
+    "value" : "12012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_iiusno.Test_iiusno_Web.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d844d9574b7a191.json",
+  "parameterValues" : [ ]
+}

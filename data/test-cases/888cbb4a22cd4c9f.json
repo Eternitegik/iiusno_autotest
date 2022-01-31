@@ -1,0 +1,187 @@
+{
+  "uid" : "888cbb4a22cd4c9f",
+  "name" : "Открываем страницу \"АС УФАП / ТОиР\"",
+  "fullName" : "Test_iiusno.Test_iiusno_Web.test_search.TestPageSearch#test_iiusno_open_toir",
+  "historyId" : "7e8aa5c30fcd4ffe1accb0acd0a01c05",
+  "time" : {
+    "start" : 1643647686560,
+    "stop" : 1643647687140,
+    "duration" : 580
+  },
+  "description" : "Проверки открытия страницы авторизации \"АС УФАП / ТОиР\" со страницы ИИУСНО",
+  "descriptionHtml" : "<p>Проверки открытия страницы авторизации &quot;АС УФАП / ТОиР&quot; со страницы ИИУСНО</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1643647685561,
+      "stop" : 1643647686560,
+      "duration" : 999
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1643647685561,
+      "stop" : 1643647685561,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1643647686560,
+      "stop" : 1643647686560,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверки открытия страницы авторизации \"АС УФАП / ТОиР\" со страницы ИИУСНО",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие страницы \"АС УФАП / ТОиР\"",
+      "time" : {
+        "start" : 1643647687086,
+        "stop" : 1643647687089,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Наличие поля \"Логин\"",
+      "time" : {
+        "start" : 1643647687089,
+        "stop" : 1643647687116,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Наличие поля \"Пароль\"",
+      "time" : {
+        "start" : 1643647687117,
+        "stop" : 1643647687139,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1643647687141,
+      "stop" : 1643647689243,
+      "duration" : 2102
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Проверки главной страницы"
+  }, {
+    "name" : "feature",
+    "value" : "Тесты для Web"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_iiusno.Test_iiusno_Web"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KEP8BC0"
+  }, {
+    "name" : "thread",
+    "value" : "12012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_iiusno.Test_iiusno_Web.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "888cbb4a22cd4c9f.json",
+  "parameterValues" : [ ]
+}

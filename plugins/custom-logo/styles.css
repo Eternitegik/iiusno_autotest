@@ -1,0 +1,17 @@
+.side-nav__brand {
+  background: url('custom-logo.svg') no-repeat left center !important;
+  margin-left: 10px;
+}
+
+.side-nav__brand-text{
+	visibility: hidden;
+    position: relative;
+}
+
+.side-nav__brand-text:after{
+	visibility: visible;
+    position: absolute;
+	top: 0;
+    left: 0;
+	content: "ИИУСНО";
+}
