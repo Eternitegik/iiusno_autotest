@@ -4,18 +4,18 @@
   "children" : [ {
     "name" : "Test_iiusno.Test_iiusno_Web",
     "children" : [ {
-      "name" : "test_search",
+      "name" : "test_HomePage",
       "children" : [ {
-        "name" : "TestPageSearch",
+        "name" : "TestHomePage",
         "children" : [ {
           "name" : "Открываем страницу ИИУСНО",
-          "uid" : "2c399df47e8e9dcb",
-          "parentUid" : "4d18f6327950daeb8cdb2e793230620e",
+          "uid" : "b2cc7f4a74089c80",
+          "parentUid" : "d4e3fa0d9d6a69d1e1c228e9a73fb4f2",
           "status" : "passed",
           "time" : {
-            "start" : 1643647678766,
-            "stop" : 1643647678925,
-            "duration" : 159
+            "start" : 1643733874251,
+            "stop" : 1643733874505,
+            "duration" : 254
           },
           "flaky" : false,
           "newFailed" : false,
@@ -25,14 +25,14 @@
           "retriesStatusChange" : false,
           "parameters" : [ ]
         }, {
-          "name" : "Открываем страницу \"АСУНО\"",
-          "uid" : "474c0a80ca3bcf7e",
-          "parentUid" : "4d18f6327950daeb8cdb2e793230620e",
+          "name" : "Открытие страницы авторизации \"АСУНО\"",
+          "uid" : "b8452021128cb622",
+          "parentUid" : "d4e3fa0d9d6a69d1e1c228e9a73fb4f2",
           "status" : "passed",
           "time" : {
-            "start" : 1643647681996,
-            "stop" : 1643647683465,
-            "duration" : 1469
+            "start" : 1643733877578,
+            "stop" : 1643733878864,
+            "duration" : 1286
           },
           "flaky" : false,
           "newFailed" : false,
@@ -42,48 +42,14 @@
           "retriesStatusChange" : false,
           "parameters" : [ ]
         }, {
-          "name" : "Открываем страницу \"АС УФАП / ТОиР\"",
-          "uid" : "888cbb4a22cd4c9f",
-          "parentUid" : "4d18f6327950daeb8cdb2e793230620e",
+          "name" : "Открытие страницы авторизации \"АС УФАП / ТОиР\"",
+          "uid" : "d25956944e6ef7b3",
+          "parentUid" : "d4e3fa0d9d6a69d1e1c228e9a73fb4f2",
           "status" : "passed",
           "time" : {
-            "start" : 1643647686560,
-            "stop" : 1643647687140,
-            "duration" : 580
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Авторизация АСУНО",
-          "uid" : "5d844d9574b7a191",
-          "parentUid" : "4d18f6327950daeb8cdb2e793230620e",
-          "status" : "passed",
-          "time" : {
-            "start" : 1643647690223,
-            "stop" : 1643647691911,
-            "duration" : 1688
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Авторизация ТОиР",
-          "uid" : "81840dee78c94f98",
-          "parentUid" : "4d18f6327950daeb8cdb2e793230620e",
-          "status" : "passed",
-          "time" : {
-            "start" : 1643647694989,
-            "stop" : 1643647695407,
-            "duration" : 418
+            "start" : 1643733881948,
+            "stop" : 1643733882583,
+            "duration" : 635
           },
           "flaky" : false,
           "newFailed" : false,
@@ -93,9 +59,59 @@
           "retriesStatusChange" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "4d18f6327950daeb8cdb2e793230620e"
+        "uid" : "d4e3fa0d9d6a69d1e1c228e9a73fb4f2"
       } ],
-      "uid" : "6f89b51c771f90e02e3623b0b27375e5"
+      "uid" : "99d4e20dc419bd56c0355ee827cda0c3"
+    }, {
+      "name" : "test_asuno",
+      "children" : [ {
+        "name" : "TestAsuno",
+        "children" : [ {
+          "name" : "Авторизация АСУНО",
+          "uid" : "30454d1e46f7c49d",
+          "parentUid" : "1836f5587f1096b71e57294d5ab58385",
+          "status" : "passed",
+          "time" : {
+            "start" : 1643733885658,
+            "stop" : 1643733887218,
+            "duration" : 1560
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1836f5587f1096b71e57294d5ab58385"
+      } ],
+      "uid" : "1260a20895d062bad40cd082fae04e5e"
+    }, {
+      "name" : "test_toir",
+      "children" : [ {
+        "name" : "TestToir",
+        "children" : [ {
+          "name" : "Авторизация ТОиР",
+          "uid" : "9a56063f18d03eea",
+          "parentUid" : "dde5f34cb17d3a2d938e6c455ab249b0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1643733890260,
+            "stop" : 1643733936630,
+            "duration" : 46370
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dde5f34cb17d3a2d938e6c455ab249b0"
+      } ],
+      "uid" : "9bc2f463b31214b533da6c2dd22f37fc"
     } ],
     "uid" : "a9f857bf1ad7b9f3fac8d53d209c81d5"
   } ]

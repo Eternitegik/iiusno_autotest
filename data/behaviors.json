@@ -7,13 +7,13 @@
       "name" : "Проверки главной страницы",
       "children" : [ {
         "name" : "Открываем страницу ИИУСНО",
-        "uid" : "2c399df47e8e9dcb",
+        "uid" : "b2cc7f4a74089c80",
         "parentUid" : "9d31dcf93bdbd9e510a3d3bd9ef40a70",
         "status" : "passed",
         "time" : {
-          "start" : 1643647678766,
-          "stop" : 1643647678925,
-          "duration" : 159
+          "start" : 1643733874251,
+          "stop" : 1643733874505,
+          "duration" : 254
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,14 +23,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Открываем страницу \"АСУНО\"",
-        "uid" : "474c0a80ca3bcf7e",
+        "name" : "Открытие страницы авторизации \"АСУНО\"",
+        "uid" : "b8452021128cb622",
         "parentUid" : "9d31dcf93bdbd9e510a3d3bd9ef40a70",
         "status" : "passed",
         "time" : {
-          "start" : 1643647681996,
-          "stop" : 1643647683465,
-          "duration" : 1469
+          "start" : 1643733877578,
+          "stop" : 1643733878864,
+          "duration" : 1286
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,14 +40,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Открываем страницу \"АС УФАП / ТОиР\"",
-        "uid" : "888cbb4a22cd4c9f",
+        "name" : "Открытие страницы авторизации \"АС УФАП / ТОиР\"",
+        "uid" : "d25956944e6ef7b3",
         "parentUid" : "9d31dcf93bdbd9e510a3d3bd9ef40a70",
         "status" : "passed",
         "time" : {
-          "start" : 1643647686560,
-          "stop" : 1643647687140,
-          "duration" : 580
+          "start" : 1643733881948,
+          "stop" : 1643733882583,
+          "duration" : 635
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,13 +62,13 @@
       "name" : "Проверки АСУНО",
       "children" : [ {
         "name" : "Авторизация АСУНО",
-        "uid" : "5d844d9574b7a191",
+        "uid" : "30454d1e46f7c49d",
         "parentUid" : "305d21602832c5ebbd74ddda9d670647",
         "status" : "passed",
         "time" : {
-          "start" : 1643647690223,
-          "stop" : 1643647691911,
-          "duration" : 1688
+          "start" : 1643733885658,
+          "stop" : 1643733887218,
+          "duration" : 1560
         },
         "flaky" : false,
         "newFailed" : false,
@@ -83,13 +83,13 @@
       "name" : "Проверки ТОиР",
       "children" : [ {
         "name" : "Авторизация ТОиР",
-        "uid" : "81840dee78c94f98",
+        "uid" : "9a56063f18d03eea",
         "parentUid" : "79521cde4abd187a679c0e761062cdf8",
         "status" : "passed",
         "time" : {
-          "start" : 1643647694989,
-          "stop" : 1643647695407,
-          "duration" : 418
+          "start" : 1643733890260,
+          "stop" : 1643733936630,
+          "duration" : 46370
         },
         "flaky" : false,
         "newFailed" : false,

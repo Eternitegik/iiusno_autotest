@@ -4,67 +4,16 @@
   "children" : [ {
     "name" : "DESKTOP-KEP8BC0",
     "children" : [ {
-      "name" : "12012-MainThread",
+      "name" : "20728-MainThread",
       "children" : [ {
-        "name" : "Открываем страницу \"АСУНО\"",
-        "uid" : "474c0a80ca3bcf7e",
-        "parentUid" : "7e44b4ddf3863c6b864b86b8a09eff9c",
+        "name" : "Открытие страницы авторизации \"АС УФАП / ТОиР\"",
+        "uid" : "d25956944e6ef7b3",
+        "parentUid" : "6a1d4f340ec7ced0c4b264ae59ae936a",
         "status" : "passed",
         "time" : {
-          "start" : 1643647681996,
-          "stop" : 1643647683465,
-          "duration" : 1469
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Открываем страницу ИИУСНО",
-        "uid" : "2c399df47e8e9dcb",
-        "parentUid" : "7e44b4ddf3863c6b864b86b8a09eff9c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1643647678766,
-          "stop" : 1643647678925,
-          "duration" : 159
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Открываем страницу \"АС УФАП / ТОиР\"",
-        "uid" : "888cbb4a22cd4c9f",
-        "parentUid" : "7e44b4ddf3863c6b864b86b8a09eff9c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1643647686560,
-          "stop" : 1643647687140,
-          "duration" : 580
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Авторизация ТОиР",
-        "uid" : "81840dee78c94f98",
-        "parentUid" : "7e44b4ddf3863c6b864b86b8a09eff9c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1643647694989,
-          "stop" : 1643647695407,
-          "duration" : 418
+          "start" : 1643733881948,
+          "stop" : 1643733882583,
+          "duration" : 635
         },
         "flaky" : false,
         "newFailed" : false,
@@ -75,13 +24,64 @@
         "parameters" : [ ]
       }, {
         "name" : "Авторизация АСУНО",
-        "uid" : "5d844d9574b7a191",
-        "parentUid" : "7e44b4ddf3863c6b864b86b8a09eff9c",
+        "uid" : "30454d1e46f7c49d",
+        "parentUid" : "6a1d4f340ec7ced0c4b264ae59ae936a",
         "status" : "passed",
         "time" : {
-          "start" : 1643647690223,
-          "stop" : 1643647691911,
-          "duration" : 1688
+          "start" : 1643733885658,
+          "stop" : 1643733887218,
+          "duration" : 1560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Открытие страницы авторизации \"АСУНО\"",
+        "uid" : "b8452021128cb622",
+        "parentUid" : "6a1d4f340ec7ced0c4b264ae59ae936a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643733877578,
+          "stop" : 1643733878864,
+          "duration" : 1286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация ТОиР",
+        "uid" : "9a56063f18d03eea",
+        "parentUid" : "6a1d4f340ec7ced0c4b264ae59ae936a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643733890260,
+          "stop" : 1643733936630,
+          "duration" : 46370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Открываем страницу ИИУСНО",
+        "uid" : "b2cc7f4a74089c80",
+        "parentUid" : "6a1d4f340ec7ced0c4b264ae59ae936a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643733874251,
+          "stop" : 1643733874505,
+          "duration" : 254
         },
         "flaky" : false,
         "newFailed" : false,
@@ -91,7 +91,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7e44b4ddf3863c6b864b86b8a09eff9c"
+      "uid" : "6a1d4f340ec7ced0c4b264ae59ae936a"
     } ],
     "uid" : "d4686e20a77d6b3636d2e13b51289a44"
   } ]

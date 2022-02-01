@@ -1,0 +1,157 @@
+{
+  "uid" : "d25956944e6ef7b3",
+  "name" : "Открытие страницы авторизации \"АС УФАП / ТОиР\"",
+  "fullName" : "Test_iiusno.Test_iiusno_Web.test_HomePage.TestHomePage#test_iiusno_open_toir",
+  "historyId" : "bf1f3bf49f9daf44b18b67da7d32fb35",
+  "time" : {
+    "start" : 1643733881948,
+    "stop" : 1643733882583,
+    "duration" : 635
+  },
+  "description" : "Проверки открытия страницы авторизации \"АС УФАП / ТОиР\" со страницы ИИУСНО",
+  "descriptionHtml" : "<p>Проверки открытия страницы авторизации &quot;АС УФАП / ТОиР&quot; со страницы ИИУСНО</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1643733880954,
+      "stop" : 1643733881947,
+      "duration" : 993
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1643733880954,
+      "stop" : 1643733880954,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1643733881947,
+      "stop" : 1643733881948,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверки открытия страницы авторизации \"АС УФАП / ТОиР\" со страницы ИИУСНО",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие страницы \"АС УФАП / ТОиР\"",
+      "time" : {
+        "start" : 1643733882580,
+        "stop" : 1643733882582,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1643733882583,
+      "stop" : 1643733884677,
+      "duration" : 2094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Проверки главной страницы"
+  }, {
+    "name" : "feature",
+    "value" : "Тесты для Web"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_iiusno.Test_iiusno_Web"
+  }, {
+    "name" : "suite",
+    "value" : "test_HomePage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomePage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KEP8BC0"
+  }, {
+    "name" : "thread",
+    "value" : "20728-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_iiusno.Test_iiusno_Web.test_HomePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d25956944e6ef7b3.json",
+  "parameterValues" : [ ]
+}
