@@ -1,23 +1,4 @@
 {
-  "27018b33bb9dba7f10022b229a2faf41" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "aa760c66d83e1c04",
-      "status" : "passed",
-      "time" : {
-        "start" : 1643979663577,
-        "stop" : 1643979707820,
-        "duration" : 44243
-      }
-    } ]
-  },
   "16d2e29df38b5396f27195cc8705a247" : {
     "statistic" : {
       "failed" : 0,
@@ -28,12 +9,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e1c2c801f2d63198",
+      "uid" : "7afa80c907adcf98",
       "status" : "passed",
       "time" : {
-        "start" : 1643979651209,
-        "stop" : 1643979652406,
-        "duration" : 1197
+        "start" : 1643980020424,
+        "stop" : 1643980021643,
+        "duration" : 1219
+      }
+    } ]
+  },
+  "27018b33bb9dba7f10022b229a2faf41" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2321acfe6d87426e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643980028581,
+        "stop" : 1643980072626,
+        "duration" : 44045
       }
     } ]
   },
@@ -47,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "47821b3429d2cbd",
+      "uid" : "23bf69a2a6685f4a",
       "status" : "passed",
       "time" : {
-        "start" : 1643979647893,
-        "stop" : 1643979648117,
-        "duration" : 224
+        "start" : 1643980017088,
+        "stop" : 1643980017347,
+        "duration" : 259
       }
     } ]
   },
@@ -60,18 +60,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7196a5b2b3b2378",
-      "status" : "passed",
+      "uid" : "1bb3904b9ccc0fc2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Нет пользователей для авторизации",
       "time" : {
-        "start" : 1643979659283,
-        "stop" : 1643979660517,
-        "duration" : 1234
+        "start" : 1643980027546,
+        "stop" : 1643980027546,
+        "duration" : 0
       }
     } ]
   },
@@ -85,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd202c381e070ed1",
+      "uid" : "a70e379f6ca9304",
       "status" : "passed",
       "time" : {
-        "start" : 1643979655485,
-        "stop" : 1643979656196,
-        "duration" : 711
+        "start" : 1643980024724,
+        "stop" : 1643980025480,
+        "duration" : 756
       }
     } ]
   },
@@ -104,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "831fa24134dafbf2",
+      "uid" : "81485e045af182e7",
       "status" : "passed",
       "time" : {
-        "start" : 1643979646814,
-        "stop" : 1643979646880,
-        "duration" : 66
+        "start" : 1643980015956,
+        "stop" : 1643980016013,
+        "duration" : 57
       }
     } ]
   }

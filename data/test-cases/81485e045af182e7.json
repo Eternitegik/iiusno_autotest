@@ -1,0 +1,112 @@
+{
+  "uid" : "81485e045af182e7",
+  "name" : "Не проходящая авторизация",
+  "fullName" : "Test_iiusno.Test_iiusno_API.test_api_asuno.TestAsunoAPI#test_asuno_login_no_auth",
+  "historyId" : "2489fc710ee48439961a25fcc096aab9",
+  "time" : {
+    "start" : 1643980015956,
+    "stop" : 1643980016013,
+    "duration" : 57
+  },
+  "description" : "Проверка с неправильным логином и паролем",
+  "descriptionHtml" : "<p>Проверка с неправильным логином и паролем</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка с неправильным логином и паролем",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получение кода \"200\"",
+      "time" : {
+        "start" : 1643980016013,
+        "stop" : 1643980016013,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Получение ошибки \"Wrong login or password\"",
+      "time" : {
+        "start" : 1643980016013,
+        "stop" : 1643980016013,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Проверки авторизации"
+  }, {
+    "name" : "feature",
+    "value" : "Тесты для API"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_iiusno.Test_iiusno_API"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_asuno"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAsunoAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KEP8BC0"
+  }, {
+    "name" : "thread",
+    "value" : "8800-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_iiusno.Test_iiusno_API.test_api_asuno"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81485e045af182e7.json",
+  "parameterValues" : [ ]
+}
