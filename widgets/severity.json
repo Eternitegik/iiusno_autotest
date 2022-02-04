@@ -1,50 +1,60 @@
 [ {
-  "uid" : "d25956944e6ef7b3",
-  "name" : "Открытие страницы авторизации \"АС УФАП / ТОиР\"",
-  "time" : {
-    "start" : 1643733881948,
-    "stop" : 1643733882583,
-    "duration" : 635
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "b8452021128cb622",
-  "name" : "Открытие страницы авторизации \"АСУНО\"",
-  "time" : {
-    "start" : 1643733877578,
-    "stop" : 1643733878864,
-    "duration" : 1286
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "30454d1e46f7c49d",
-  "name" : "Авторизация АСУНО",
-  "time" : {
-    "start" : 1643733885658,
-    "stop" : 1643733887218,
-    "duration" : 1560
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "9a56063f18d03eea",
-  "name" : "Авторизация ТОиР",
-  "time" : {
-    "start" : 1643733890260,
-    "stop" : 1643733936630,
-    "duration" : 46370
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "b2cc7f4a74089c80",
+  "uid" : "47821b3429d2cbd",
   "name" : "Открываем страницу ИИУСНО",
   "time" : {
-    "start" : 1643733874251,
-    "stop" : 1643733874505,
-    "duration" : 254
+    "start" : 1643979647893,
+    "stop" : 1643979648117,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "831fa24134dafbf2",
+  "name" : "Не проходящая авторизация",
+  "time" : {
+    "start" : 1643979646814,
+    "stop" : 1643979646880,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "dd202c381e070ed1",
+  "name" : "Открытие страницы авторизации \"АС УФАП / ТОиР\"",
+  "time" : {
+    "start" : 1643979655485,
+    "stop" : 1643979656196,
+    "duration" : 711
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7196a5b2b3b2378",
+  "name" : "Авторизация АСУНО",
+  "time" : {
+    "start" : 1643979659283,
+    "stop" : 1643979660517,
+    "duration" : 1234
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e1c2c801f2d63198",
+  "name" : "Открытие страницы авторизации \"АСУНО\"",
+  "time" : {
+    "start" : 1643979651209,
+    "stop" : 1643979652406,
+    "duration" : 1197
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "aa760c66d83e1c04",
+  "name" : "Авторизация ТОиР",
+  "time" : {
+    "start" : 1643979663577,
+    "stop" : 1643979707820,
+    "duration" : 44243
   },
   "status" : "passed",
   "severity" : "blocker"

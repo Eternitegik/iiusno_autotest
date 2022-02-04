@@ -1,7 +1,35 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
+    "name" : "Test_iiusno.Test_iiusno_API",
+    "children" : [ {
+      "name" : "test_api_asuno",
+      "children" : [ {
+        "name" : "TestAsunoAPI",
+        "children" : [ {
+          "name" : "Не проходящая авторизация",
+          "uid" : "831fa24134dafbf2",
+          "parentUid" : "364c6b0bb501ca54c70f13c75a4b3f70",
+          "status" : "passed",
+          "time" : {
+            "start" : 1643979646814,
+            "stop" : 1643979646880,
+            "duration" : 66
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "364c6b0bb501ca54c70f13c75a4b3f70"
+      } ],
+      "uid" : "85489057df3d6af6a5b986c22f5f7cd4"
+    } ],
+    "uid" : "ff1affd3e239d1cf82bcc41117f3eb1f"
+  }, {
     "name" : "Test_iiusno.Test_iiusno_Web",
     "children" : [ {
       "name" : "test_HomePage",
@@ -9,13 +37,13 @@
         "name" : "TestHomePage",
         "children" : [ {
           "name" : "Открываем страницу ИИУСНО",
-          "uid" : "b2cc7f4a74089c80",
+          "uid" : "47821b3429d2cbd",
           "parentUid" : "d4e3fa0d9d6a69d1e1c228e9a73fb4f2",
           "status" : "passed",
           "time" : {
-            "start" : 1643733874251,
-            "stop" : 1643733874505,
-            "duration" : 254
+            "start" : 1643979647893,
+            "stop" : 1643979648117,
+            "duration" : 224
           },
           "flaky" : false,
           "newFailed" : false,
@@ -26,13 +54,13 @@
           "parameters" : [ ]
         }, {
           "name" : "Открытие страницы авторизации \"АСУНО\"",
-          "uid" : "b8452021128cb622",
+          "uid" : "e1c2c801f2d63198",
           "parentUid" : "d4e3fa0d9d6a69d1e1c228e9a73fb4f2",
           "status" : "passed",
           "time" : {
-            "start" : 1643733877578,
-            "stop" : 1643733878864,
-            "duration" : 1286
+            "start" : 1643979651209,
+            "stop" : 1643979652406,
+            "duration" : 1197
           },
           "flaky" : false,
           "newFailed" : false,
@@ -43,13 +71,13 @@
           "parameters" : [ ]
         }, {
           "name" : "Открытие страницы авторизации \"АС УФАП / ТОиР\"",
-          "uid" : "d25956944e6ef7b3",
+          "uid" : "dd202c381e070ed1",
           "parentUid" : "d4e3fa0d9d6a69d1e1c228e9a73fb4f2",
           "status" : "passed",
           "time" : {
-            "start" : 1643733881948,
-            "stop" : 1643733882583,
-            "duration" : 635
+            "start" : 1643979655485,
+            "stop" : 1643979656196,
+            "duration" : 711
           },
           "flaky" : false,
           "newFailed" : false,
@@ -68,13 +96,13 @@
         "name" : "TestAsuno",
         "children" : [ {
           "name" : "Авторизация АСУНО",
-          "uid" : "30454d1e46f7c49d",
+          "uid" : "7196a5b2b3b2378",
           "parentUid" : "1836f5587f1096b71e57294d5ab58385",
           "status" : "passed",
           "time" : {
-            "start" : 1643733885658,
-            "stop" : 1643733887218,
-            "duration" : 1560
+            "start" : 1643979659283,
+            "stop" : 1643979660517,
+            "duration" : 1234
           },
           "flaky" : false,
           "newFailed" : false,
@@ -93,13 +121,13 @@
         "name" : "TestToir",
         "children" : [ {
           "name" : "Авторизация ТОиР",
-          "uid" : "9a56063f18d03eea",
+          "uid" : "aa760c66d83e1c04",
           "parentUid" : "dde5f34cb17d3a2d938e6c455ab249b0",
           "status" : "passed",
           "time" : {
-            "start" : 1643733890260,
-            "stop" : 1643733936630,
-            "duration" : 46370
+            "start" : 1643979663577,
+            "stop" : 1643979707820,
+            "duration" : 44243
           },
           "flaky" : false,
           "newFailed" : false,
@@ -114,5 +142,6 @@
       "uid" : "9bc2f463b31214b533da6c2dd22f37fc"
     } ],
     "uid" : "a9f857bf1ad7b9f3fac8d53d209c81d5"
-  } ]
+  } ],
+  "name" : "suites"
 }

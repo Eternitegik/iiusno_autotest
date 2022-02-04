@@ -1,19 +1,43 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
+    "name" : "Тесты для API",
+    "children" : [ {
+      "name" : "Проверки авторизации",
+      "children" : [ {
+        "name" : "Не проходящая авторизация",
+        "uid" : "831fa24134dafbf2",
+        "parentUid" : "3ce27cfc227b7ecf093cde734bb252e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643979646814,
+          "stop" : 1643979646880,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ce27cfc227b7ecf093cde734bb252e1"
+    } ],
+    "uid" : "56494322efae7875ddeaccd96b7c6067"
+  }, {
     "name" : "Тесты для Web",
     "children" : [ {
       "name" : "Проверки главной страницы",
       "children" : [ {
         "name" : "Открываем страницу ИИУСНО",
-        "uid" : "b2cc7f4a74089c80",
+        "uid" : "47821b3429d2cbd",
         "parentUid" : "9d31dcf93bdbd9e510a3d3bd9ef40a70",
         "status" : "passed",
         "time" : {
-          "start" : 1643733874251,
-          "stop" : 1643733874505,
-          "duration" : 254
+          "start" : 1643979647893,
+          "stop" : 1643979648117,
+          "duration" : 224
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +48,13 @@
         "parameters" : [ ]
       }, {
         "name" : "Открытие страницы авторизации \"АСУНО\"",
-        "uid" : "b8452021128cb622",
+        "uid" : "e1c2c801f2d63198",
         "parentUid" : "9d31dcf93bdbd9e510a3d3bd9ef40a70",
         "status" : "passed",
         "time" : {
-          "start" : 1643733877578,
-          "stop" : 1643733878864,
-          "duration" : 1286
+          "start" : 1643979651209,
+          "stop" : 1643979652406,
+          "duration" : 1197
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +65,13 @@
         "parameters" : [ ]
       }, {
         "name" : "Открытие страницы авторизации \"АС УФАП / ТОиР\"",
-        "uid" : "d25956944e6ef7b3",
+        "uid" : "dd202c381e070ed1",
         "parentUid" : "9d31dcf93bdbd9e510a3d3bd9ef40a70",
         "status" : "passed",
         "time" : {
-          "start" : 1643733881948,
-          "stop" : 1643733882583,
-          "duration" : 635
+          "start" : 1643979655485,
+          "stop" : 1643979656196,
+          "duration" : 711
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,13 +86,13 @@
       "name" : "Проверки АСУНО",
       "children" : [ {
         "name" : "Авторизация АСУНО",
-        "uid" : "30454d1e46f7c49d",
+        "uid" : "7196a5b2b3b2378",
         "parentUid" : "305d21602832c5ebbd74ddda9d670647",
         "status" : "passed",
         "time" : {
-          "start" : 1643733885658,
-          "stop" : 1643733887218,
-          "duration" : 1560
+          "start" : 1643979659283,
+          "stop" : 1643979660517,
+          "duration" : 1234
         },
         "flaky" : false,
         "newFailed" : false,
@@ -83,13 +107,13 @@
       "name" : "Проверки ТОиР",
       "children" : [ {
         "name" : "Авторизация ТОиР",
-        "uid" : "9a56063f18d03eea",
+        "uid" : "aa760c66d83e1c04",
         "parentUid" : "79521cde4abd187a679c0e761062cdf8",
         "status" : "passed",
         "time" : {
-          "start" : 1643733890260,
-          "stop" : 1643733936630,
-          "duration" : 46370
+          "start" : 1643979663577,
+          "stop" : 1643979707820,
+          "duration" : 44243
         },
         "flaky" : false,
         "newFailed" : false,
@@ -102,5 +126,6 @@
       "uid" : "79521cde4abd187a679c0e761062cdf8"
     } ],
     "uid" : "d46b318d7e54e7c13701631c1222996c"
-  } ]
+  } ],
+  "name" : "behaviors"
 }

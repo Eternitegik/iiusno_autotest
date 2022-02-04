@@ -1,5 +1,5 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "a9f857bf1ad7b9f3fac8d53d209c81d5",
     "name" : "Test_iiusno.Test_iiusno_Web",
@@ -10,6 +10,17 @@
       "passed" : 5,
       "unknown" : 0,
       "total" : 5
+    }
+  }, {
+    "uid" : "ff1affd3e239d1cf82bcc41117f3eb1f",
+    "name" : "Test_iiusno.Test_iiusno_API",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

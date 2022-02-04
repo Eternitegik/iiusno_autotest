@@ -1,5 +1,5 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "d46b318d7e54e7c13701631c1222996c",
     "name" : "Тесты для Web",
@@ -10,6 +10,17 @@
       "passed" : 3,
       "unknown" : 0,
       "total" : 3
+    }
+  }, {
+    "uid" : "56494322efae7875ddeaccd96b7c6067",
+    "name" : "Тесты для API",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }
